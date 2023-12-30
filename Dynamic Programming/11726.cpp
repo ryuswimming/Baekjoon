@@ -1,5 +1,3 @@
-// Dynmaic Programming version
-
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,3 @@
 # Baekjoon
 
-To enhance my general problem solving ability.
+To enhance my problem solving ability.

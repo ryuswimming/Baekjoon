@@ -1,4 +1,4 @@
-// intuitive idea, but complicate implementation
+// Complex version
 
 #include <iostream>
 using namespace std;

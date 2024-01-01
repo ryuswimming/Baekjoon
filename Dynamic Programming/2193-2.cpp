@@ -1,5 +1,4 @@
-// counter-intuitive idea, but simple implementation
-// More desirable than another one 
+// Simple version
 
 #include <iostream>
 using namespace std;
@@ -13,7 +12,7 @@ int main() {
     array[2] = 1;
     
     for (int i = 3; i <= number; i++) {
-        // 모르겠다..
+        // Divide the case by the possible end, which is 0 and 01.
         array[i] = array[i-1] + array[i-2];
     }
 

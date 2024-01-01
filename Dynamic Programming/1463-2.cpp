@@ -20,8 +20,8 @@ int f(int number) {
     int a, b;
 
     // Reduce 3 cases to 2 cases.
+    // Dividing by 3 or 2 always reduces the number more than subtracting by 1.
     // Important point that makes Recursive version more efficient than Dynamic Programming version.
-    // 모르겠다...
     a = f(number/3) + number%3 + 1;
     b = f(number/2) + number%2 + 1;
     

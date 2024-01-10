@@ -23,6 +23,7 @@ int main() {
     cout << dp[count] << endl;
 
     free(array);
+    free(dp);
 }
 
 int max(int a, int b) {

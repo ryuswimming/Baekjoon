@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "utility": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "tuple": "cpp"
     }
 }

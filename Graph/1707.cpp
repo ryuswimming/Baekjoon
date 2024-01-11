@@ -13,13 +13,14 @@ bool result;
 int main() {
     cin >> K;
     for (int k = 0; k < K; k++) {
+        cin >> N >> M;
+
         for (int i = 1; i <= N; i++) {
             li[i].clear();
             visited[i] = -1;
         }
         result = true;
 
-        cin >> N >> M;
         int temp1, temp2;
         for (int i = 0; i < M; i++) {
             cin >> temp1 >> temp2;

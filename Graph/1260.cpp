@@ -6,9 +6,9 @@ void dfs(int );
 void bfs(int );
 
 int N, M, V;
-bool _array[1001][1001] = {false, };
-bool dfs_visited[1001] = {false, };
-bool bfs_visited[1001] = {false, };
+bool _array[1001][1001];
+bool dfs_visited[1001];
+bool bfs_visited[1001];
 queue<int> _queue;
 
 int main() {

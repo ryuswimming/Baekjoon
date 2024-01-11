@@ -4,8 +4,8 @@ using namespace std;
 void dfs(int );
 
 int N, M;
-bool _array[1001][1001] = {false, };
-bool visited[1001] = {false, };
+bool _array[1001][1001];
+bool visited[1001];
 
 int main() {
     cin >> N >> M;

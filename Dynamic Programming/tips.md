@@ -1,4 +1,4 @@
-## Dynamic Programming tips
+# Dynamic Programming tips
 문제 분할을 어떻게 하느냐에 따라 구현의 난이도가 크게 달라진다.
 
 일단 웬만하면 f(n)을 f(n-1), f(n-2) 등에 대한 관계식으로 나타내보자.
